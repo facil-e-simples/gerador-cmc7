@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de código CMC7 de cheques</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <header> 
+    
+    <div>
+      <h1 class="site-title">Gerador de código CMC7 de cheques</h1>
+    </div>
+
+    <form >
+        <label>CMC7:</label>
+        <input type="text" id="campo-resultante" name="fname" disabled="true">
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="botao">
+          <button type="button" class="botao-gerar" onclick="gerarCMC7();">Gerar CMC7</button>
+        </div>
+    </form>
+    
+  </header>
+
+  <script>
+    function gerarCMC7() {
+      document.getElementById("campo-resultante").value = 'Teste rese';
+
+      console.log('gerar codigo cmc7');
+    }
+    </script>
+  
+</body>
+</html>
