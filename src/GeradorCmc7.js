@@ -15,8 +15,8 @@ function getModelo() {
     "3129632d472nnnnnn5009241501056",
     "7564238d033nnnnnn5900052800108"];
 
-  let index = Math.floor(Math.random() * 2);
-  return cmc7Modelo[index];
+  // let index = Math.floor(Math.random() * 2);
+  return cmc7Modelo[0];
 }
 
 function calcularDigito(cmc7Modelo) {
