@@ -40,3 +40,18 @@ function calcularDigito(cmc7Modelo) {
 
   return digito > 9 ? 0 : digito;
 }
+
+function myFunction() {
+  var copyText = document.getElementById("campo-resultante");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copiado!";
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copie o CMC7";
+}
